@@ -11,7 +11,6 @@ public class Client extends AbstractEntity {
     private String name ="";
     private String phone ="";
     private String address ="";
-    private int age;
 
     public String getAddress(){
         return address;
@@ -21,21 +20,11 @@ public class Client extends AbstractEntity {
         this.address = address;
     }
 
-    public int getAge(){
-        return age;
-    }
-
-    public void setAge(int age){
-        this.age = age;
-    }
-
-    public Client(Long id, String name, int age, String phone, String address){
+    public Client(Long id, String name, String phone){
         this.id = id;
         this.name = name;
         this.phone = phone;
-        this.address = address;
-        this.age = age;
-    }
+      }
 
     @Column
     public String getName(){

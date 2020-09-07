@@ -1,4 +1,4 @@
-package ru.kolyasnikovkv.bank.controller;
+package ru.kolyasnikovkv.bank;
 
 public class CustomErrorType {
     private String errorMessage;

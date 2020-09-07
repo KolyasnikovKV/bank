@@ -1,4 +1,4 @@
-package ru.kolyasnikovkv.bank.controller;
+package ru.kolyasnikovkv.bank;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.kolyasnikovkv.bank.controller.util.Operations;
+import ru.kolyasnikovkv.bank.util.Operations;
 import ru.kolyasnikovkv.bank.critery.OperationCritery;
 import ru.kolyasnikovkv.bank.entity.Operation;
 import ru.kolyasnikovkv.bank.service.ACrudService;

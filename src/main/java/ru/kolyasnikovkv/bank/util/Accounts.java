@@ -1,4 +1,4 @@
-package ru.kolyasnikovkv.bank.controller.util;
+package ru.kolyasnikovkv.bank.util;
 
 import ru.kolyasnikovkv.bank.entity.Account;
 
