@@ -14,5 +14,5 @@ public class AbstractEntity implements Serializable {
     @Column
     public Long getId(){return id;}
 
-    public void SetId(Long id) {this.id = id;}
+    public void setId(Long id) {this.id = id;}
 }

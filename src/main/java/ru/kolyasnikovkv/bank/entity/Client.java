@@ -24,7 +24,10 @@ public class Client extends AbstractEntity {
         this.id = id;
         this.name = name;
         this.phone = phone;
-      }
+    }
+    public Client() {
+
+    }
 
     @Column
     public String getName(){
